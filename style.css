@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+div{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 60px;/*alto*/
+   /* background-color: grey;*/
+    background-image: linear-gradient(to left, #554555,  #2D3A54, #d1b9d1);
+
+}
+header, img{
+    
+   
+    padding: 5px;/*para que no este pegado arriba*/    
+
+}
+main{
+    width: 100%;
+    height: 600px;
+    background-color:rgb(212, 211, 211);    
+    display: flex; /*lo podamos mover como cajas ..movilizacion acertada*/
+    justify-content: space-between;/*le damos una distribucion organizada..organiza las cajas*/
+}
+section {
+    height: 100%;
+    background-color: rgb(214, 223, 223);
+    border-radius: 20px;
+}
+
+.div1{
+    width: 60%;
+    margin-left: 40px;
+
+}
+.div2{
+    width: 30%;
+    margin-right: 40px;
+}
+
+.contenedorImg{
+   
+    padding-top: 20px;
+    text-align: center;
+
+}
+.MensajeNan{
+   
+    text-align: center;
+
+
+}
+.Parrafo{
+   
+    text-align: center;
+    
+}
+
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+}
+
+/*segunda division*/
+.textArea1{
+    width: 80%;
+    height: 60%;
+    resize: none;/*para que no se mueva el cuadrado del tex area*/
+    display: block;
+    text-align: center;/*para centrar el text area*/
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+
+
+}
+.textArea2{
+    width: 90%;
+    height: 20%;
+    resize: none;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.contenedorBtn{
+    text-align: center;
+    margin-top: 20px;/*se separa de arriba*/
+    
+}
+
+.btnbtnModel{
+    width: 300px;
+    height: 40px;    
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+
+    
+    border:3px solid rgba(100,100,100,01);
+    /*margin-bottom: 20px;*/
+    padding: 5px;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #f7cccc;
+    background-size: 300%;
+    border: 0;
+    outline: 0;
+    
+
+}
+
+#btnEncriptado {
+
+
+    /*desgradado*/
+    background-image: linear-gradient(to left, #00B7DA,  #161569, #00da41);   
+    
+
+}
+
+
+#btnDesencritado{
+    background-image: linear-gradient(to left, #A950A1,  #2D3A54, #A950A1);
+    
+}
+#btnCopiar{
+    background-image: linear-gradient(to left, #2a0852,  #31a5b9, #2a0852);   
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+footer{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 20px;
+    box-sizing: content-box;/**no se dañe y se desborde*/
+}
+
+.btnCopiar{
+    display:  none; /*aca escondemos el  boton*/
+
+}
+.NoMensaje{
+    display:  none;
+}
